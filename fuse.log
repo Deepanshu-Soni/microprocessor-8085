@@ -1,0 +1,42 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/mp8085_tb_isim_beh.exe" -prj "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/mp8085_tb_beh.prj" "work.mp8085_tb" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/stackPointer.v" into library work
+Analyzing Verilog file "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/regFile.v" into library work
+Analyzing Verilog file "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/program_counter.v" into library work
+Analyzing Verilog file "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/memory.v" into library work
+Analyzing Verilog file "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/mbr.v" into library work
+Analyzing Verilog file "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/mar.v" into library work
+Analyzing Verilog file "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/instr_reg.v" into library work
+Analyzing Verilog file "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/flag_reg.v" into library work
+Analyzing Verilog file "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/controller.v" into library work
+Analyzing Verilog file "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/bufReg.v" into library work
+Analyzing Verilog file "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/alu.v" into library work
+Analyzing Verilog file "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/accumulator.v" into library work
+Analyzing Verilog file "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/mp8085_v1.v" into library work
+Analyzing Verilog file "C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/mp8085_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module controller
+Compiling module accumulator
+Compiling module bufReg
+Compiling module alu
+Compiling module flag_reg
+Compiling module instr_reg
+Compiling module mar
+Compiling module mbr
+Compiling module program_counter
+Compiling module regFile
+Compiling module stackPointer
+Compiling module memory
+Compiling module mp8085_v1
+Compiling module mp8085_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 15 Verilog Units
+Built simulation executable C:/Users/91704/Documents/VHDL_Projects/mp8085_ver1 (1)/mp8085_ver1/mp8085_tb_isim_beh.exe
+Fuse Memory Usage: 33396 KB
+Fuse CPU Usage: 624 ms
